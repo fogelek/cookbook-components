@@ -1,0 +1,31 @@
+{
+  "name": "cookbook-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/rollup -c --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fogelek/cookbook-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fogelek/cookbook-components/issues"
+  },
+  "homepage": "https://github.com/fogelek/cookbook-components#readme",
+  "dependencies": {
+    "@rollup/plugin-image": "^3.0.2",
+    "@rollup/plugin-terser": "^0.4.3",
+    "rollup": "^3.23.0",
+    "sass": "^1.62.1"
+  },
+  "devDependencies": {
+    "rollup-plugin-svg-import": "^2.0.0"
+  }
+}
